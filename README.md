@@ -109,3 +109,9 @@ Here an example of Tensorboard visualization.
 <!-- MARKDOWN LINKS & IMAGES -->
 [model-summary]: images/model_summary.jpg
 [tensorboard-example]: images/tensorboard_sample.png
+
+
+Under the Histogram tab you can see all the histogram stored for the analysis of the predictions and ground truth distributions.
+Under the Text tab you can see the model hyperparameters and the model layers.
+The Confusion Matrixes can be seen under the Images tab, while under the scalar tab the losses and the error values are displayed.
+On the bottom left you can filter the data are visualized by the model name and by the phase (train, test or validation) that you want to analize.
