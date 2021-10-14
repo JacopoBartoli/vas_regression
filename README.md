@@ -33,7 +33,7 @@ The main columns of the output are:
 * Columns that represent the features: it can be of variable length.
 * 'Label: it represent the VAS value associated to each sequence. The value is the same for each item of the same sequence.
 
-A row in the .csv is something like ['Sequenza','Frame','Feature 1',...'Feature N','Label']
+A row in the .csv is something like ['Sequenza', 'Frame', 'Feature 1', ..., 'Feature N', 'Label']
 
 ### Preprocessing
 
