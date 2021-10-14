@@ -22,7 +22,7 @@ For using that is just needed to download all the notebook and the file  ./noteb
 
 ### Dataset creation
 
-First of you need to create a structured dataset starting from the raw data. 
+First of all you need to create a structured dataset starting from the raw data. 
 You can do this operation by executing the notebook called 'dataset_generation.ipynb'.
 In this notebook you can select what landmarks take in to account for the dataset creation.
 All is needed to do is just set the correct paths of the input raw data and the output file.
