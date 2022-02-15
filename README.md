@@ -85,13 +85,14 @@ The data we saved for the Tensorboard visualization are:
 ### Visualization on Tensorboard
 
 To enable the visualization of the results on Tensorboard you just need to execute the following code on Google Colab:
-1.Mount your GDrive with all the logs saved.
+
+1. Mount your GDrive with all the logs saved.
   ```
   from google.colab import drive
   drive.mount('/content/gdrive')
   !ls -l '/content/gdrive/My Drive/to_logs_directory/
   ```
-2.And then execute Tensorboard.
+2. Execute Tensorboard.
    ```
    %reload_ext tensorboard
    %tensorboard --logdir '/content/gdrive/My Drive/to_logs_directory/'
