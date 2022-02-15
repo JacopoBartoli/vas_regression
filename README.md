@@ -93,10 +93,10 @@ To enable the visualization of the results on Tensorboard you just need to execu
   !ls -l '/content/gdrive/My Drive/to_logs_directory/
   ```
 2. Execute Tensorboard.
-   ```
-   %reload_ext tensorboard
-   %tensorboard --logdir '/content/gdrive/My Drive/to_logs_directory/'
-   ```
+  ```
+  %reload_ext tensorboard
+  %tensorboard --logdir '/content/gdrive/My Drive/to_logs_directory/'
+  ```
    
 As an alternative we uploaded a simple notebook, called 'result.ipynb' that follows our notation for the directory tree that can just be executed changing the paths.
 
